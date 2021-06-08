@@ -1,0 +1,37 @@
+{
+ "puntajes": {
+  "2345": {
+   "punto": 0,
+   "fama": 3
+  },
+  "7805": {
+   "punto": 0,
+   "fama": 0
+  },
+  "8943": {
+   "punto": 0,
+   "fama": 2
+  },
+  "1238": {
+   "punto": 3,
+   "fama": 0
+  },
+  "9981": {
+   "punto": 0,
+   "fama": 1
+  },
+  "2189": {
+   "punto": 0,
+   "fama": 2
+  },
+  "7821": {
+   "punto": 0,
+   "fama": 2
+  },
+  "2981": {
+   "punto": 0,
+   "fama": 2
+  }
+ },
+ "numeros_usados": {}
+}
