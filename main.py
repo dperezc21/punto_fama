@@ -1,7 +1,7 @@
 import archivos_externos as archivos
 lista_numeros = ["0","1","2","3","4","5","6","7","8","9"]
 lista_numeros_usados = []
-lista_puntajes = archivos.leer('puntajes_obtenidos.json')
+lista_puntajes = archivos.leer('datos_obtenidos.json')
 
 
 
@@ -42,9 +42,8 @@ if __name__ == '__main__':
     if puntaje["punto"]==len(numero_adivinar):
         print("PUNTO Y FAMA, el numero es {}".format(numero_adivinar))
     else:
+    
         lista_puntajes["puntajes"][numero] = puntaje
-        archivos.escribir('puntajes_obtenidos.json', lista_puntajes)
+        archivos.editar('datos_obtenidos.json', lista_puntajes)
         for clave in resultado:
             print(clave,":",puntaje[clave])
-
-
